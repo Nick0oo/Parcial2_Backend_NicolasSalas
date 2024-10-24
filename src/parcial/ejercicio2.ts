@@ -35,6 +35,13 @@ let ArrayNumeros25: number[] = [10, 20, 30, 40, 50];
 let numeroMayorQue25 = ArrayNumeros25.find(x => x > 25);
 let indiceMayorQue25 = ArrayNumeros25.findIndex(x => x > 25);
 console.log(`El primer número mayor que 25 es ${numeroMayorQue25} y su índice es ${indiceMayorQue25}`);
+// verificar sin todos los numeros del array son positivos
+console.log('todos los numeros son postivos ',ArrayNumeros25.filter(x=>x>0));
+// verifica si algun numero del array es mayor que 40
+let numeroMayorQue40 = ArrayNumeros25.find(x=> x > 40);
+console.log('numero mayor a 40 dentro del array ', numeroMayorQue40);
+
+
 
 
 
