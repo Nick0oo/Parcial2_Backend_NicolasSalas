@@ -20,4 +20,13 @@ console.log(`El primer número mayor que 25 es ${numeroMayorQue25} y su índice 
 console.log('todos los numeros son postivos ', ArrayNumeros25.filter(x => x > 0));
 let numeroMayorQue40 = ArrayNumeros25.find(x => x > 40);
 console.log('numero mayor a 40 dentro del array ', numeroMayorQue40);
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let arrayCombinado = array1.concat(array2);
+console.log(arrayCombinado);
+let arraym = [5, 1, 4, 2, 3];
+arraym.sort((a, b) => a - b);
+console.log('Array ordenado de menor a mayor:', arraym);
+arraym.reverse();
+console.log('Array ordenado de mayor a menor:', arraym);
 //# sourceMappingURL=ejercicio2.js.map

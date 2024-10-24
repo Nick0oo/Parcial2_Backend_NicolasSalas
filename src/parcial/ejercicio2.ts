@@ -40,6 +40,20 @@ console.log('todos los numeros son postivos ',ArrayNumeros25.filter(x=>x>0));
 // verifica si algun numero del array es mayor que 40
 let numeroMayorQue40 = ArrayNumeros25.find(x=> x > 40);
 console.log('numero mayor a 40 dentro del array ', numeroMayorQue40);
+// combinar los arrays [1,2,3] y [4,5,6]
+let array1: number[] = [1, 2, 3];
+let array2: number[] = [4, 5, 6];
+let arrayCombinado: number[] = array1.concat(array2);
+console.log(arrayCombinado);
+
+// ordena el array [5,1,4,2,3] de menor a mayor y luego revierte su orden
+let arraym: number[] = [5, 1, 4, 2, 3];
+arraym.sort((a, b) => a - b);
+console.log('Array ordenado de menor a mayor:', arraym);
+arraym.reverse();
+console.log('Array ordenado de mayor a menor:', arraym);
+
+
 
 
 
