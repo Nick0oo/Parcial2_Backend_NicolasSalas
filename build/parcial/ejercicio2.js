@@ -29,4 +29,10 @@ arraym.sort((a, b) => a - b);
 console.log('Array ordenado de menor a mayor:', arraym);
 arraym.reverse();
 console.log('Array ordenado de mayor a menor:', arraym);
+let arrayNombres = ['juan', 'romer', 'nicolas', 'alan'];
+arrayNombres.sort();
+console.log('Array de nombres ordenado alfabéticamente:', arrayNombres);
+let arrayfinal2 = [10, 20, 30, 40, 50];
+let hay4 = arrayfinal2.find(x => x === 4);
+console.log('no hay 4 en el arreglo ', hay4);
 //# sourceMappingURL=ejercicio2.js.map

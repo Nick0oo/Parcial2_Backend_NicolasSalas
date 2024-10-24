@@ -53,6 +53,19 @@ console.log('Array ordenado de menor a mayor:', arraym);
 arraym.reverse();
 console.log('Array ordenado de mayor a menor:', arraym);
 
+// ordenar un array de nombres en orden alfabetico
+let arrayNombres: string[] = ['juan', 'romer', 'nicolas', 'alan'];
+arrayNombres.sort();
+console.log('Array de nombres ordenado alfabéticamente:', arrayNombres);
+
+// verifica si el numero 4 esta presenta eb el array de numeros [10,20,30,40,50]
+let arrayfinal2: number[]=[10,20,30,40,50];
+let hay4 = arrayfinal2.find(x=> x === 4)
+console.log('no hay 4 en el arreglo ', hay4)
+
+
+
+
 
 
 
