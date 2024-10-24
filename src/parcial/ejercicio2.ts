@@ -22,6 +22,8 @@ console.log(ArrayNumeros.slice(1,4));
 // eleva al cuadrado todos lo numeros del array de numeros usando map
 console.log(ArrayNumeros.map(x=>x*x));
 // filtra los numeros pares del array de numeros
+console.log(ArrayNumeros.filter(x=>x%2==0));
+
 
 
 

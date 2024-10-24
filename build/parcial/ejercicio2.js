@@ -9,4 +9,5 @@ console.log(ArrayNumeros);
 console.log(ArrayNumeros.indexOf(3));
 console.log(ArrayNumeros.slice(1, 4));
 console.log(ArrayNumeros.map(x => x * x));
+console.log(ArrayNumeros.filter(x => x % 2 == 0));
 //# sourceMappingURL=ejercicio2.js.map
