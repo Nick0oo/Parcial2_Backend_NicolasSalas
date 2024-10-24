@@ -11,4 +11,10 @@ console.log(ArrayNumeros.slice(1, 4));
 console.log(ArrayNumeros.map(x => x * x));
 console.log(ArrayNumeros.filter(x => x % 2 == 0));
 console.log(ArrayNumeros.reduce((a, b) => a + b));
+let cadenaFrutas = ArrayFrutas.join(', ');
+console.log(cadenaFrutas);
+let ArrayNumeros25 = [10, 20, 30, 40, 50];
+let numeroMayorQue25 = ArrayNumeros25.find(x => x > 25);
+let indiceMayorQue25 = ArrayNumeros25.findIndex(x => x > 25);
+console.log(`El primer número mayor que 25 es ${numeroMayorQue25} y su índice es ${indiceMayorQue25}`);
 //# sourceMappingURL=ejercicio2.js.map

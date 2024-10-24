@@ -26,6 +26,22 @@ console.log(ArrayNumeros.filter(x=>x%2==0));
 // suma todos los numeros del array de numeros utilizando reduce
 console.log(ArrayNumeros.reduce((a,b)=>a+b));
 
+//divide una cadena de texto de un array de palabras (frutas) y luego vuelve a unirlas en una cadena separada por comas
+let cadenaFrutas = ArrayFrutas.join(', ');
+console.log(cadenaFrutas);
+
+// encuentra el primer numero mayor que 25 en el array [10,20,30,40,50] y su indice
+let ArrayNumeros25: number[] = [10, 20, 30, 40, 50];
+let numeroMayorQue25 = ArrayNumeros25.find(x => x > 25);
+let indiceMayorQue25 = ArrayNumeros25.findIndex(x => x > 25);
+console.log(`El primer número mayor que 25 es ${numeroMayorQue25} y su índice es ${indiceMayorQue25}`);
+
+
+
+
+
+
+
 
 
 
