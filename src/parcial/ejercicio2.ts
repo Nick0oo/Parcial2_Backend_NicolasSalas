@@ -19,3 +19,9 @@ console.log(ArrayNumeros);
 console.log(ArrayNumeros.indexOf(3));
 // extrae una parte del array de numeros desde el segundo hasta el cuarto elemento
 console.log(ArrayNumeros.slice(1,4));
+// eleva al cuadrado todos lo numeros del array de numeros usando map
+console.log(ArrayNumeros.map(x=>x*x));
+// filtra los numeros pares del array de numeros
+
+
+

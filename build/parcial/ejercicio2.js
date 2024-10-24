@@ -8,4 +8,5 @@ ArrayNumeros.pop();
 console.log(ArrayNumeros);
 console.log(ArrayNumeros.indexOf(3));
 console.log(ArrayNumeros.slice(1, 4));
+console.log(ArrayNumeros.map(x => x * x));
 //# sourceMappingURL=ejercicio2.js.map
