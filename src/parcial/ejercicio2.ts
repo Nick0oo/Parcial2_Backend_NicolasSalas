@@ -23,6 +23,8 @@ console.log(ArrayNumeros.slice(1,4));
 console.log(ArrayNumeros.map(x=>x*x));
 // filtra los numeros pares del array de numeros
 console.log(ArrayNumeros.filter(x=>x%2==0));
+// suma todos los numeros del array de numeros utilizando reduce
+console.log(ArrayNumeros.reduce((a,b)=>a+b));
 
 
 
