@@ -15,6 +15,5 @@ console.log(ArrayNumeros);
 // elimina el ultimo elemento del array de numeros
 ArrayNumeros.pop();
 console.log(ArrayNumeros);
-
-
-
+// encuentra el indice del numero 3 en el array de numeros
+console.log(ArrayNumeros.indexOf(3));
