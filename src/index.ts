@@ -1,2 +1,3 @@
-import './parcial/parcial2';
-console.log('Hola mundo');
+import './parcial/ejercicio1';
+import './parcial/ejercicio2';
+import './parcial/ejercicio3';
