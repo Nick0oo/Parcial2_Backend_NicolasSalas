@@ -7,10 +7,13 @@ let ArrayFrutas: string[]=['pera','fresa','manzana','lulo','uva'];
 //array de boleanos
 let ArrayBoleanos: boolean[]=[true,false,true,false,true];
 //array de tuplas
-let tuplas: any
+let ArrayTuplas: [string,number][]=[['pera',1],['fresa',2],['manzana',3],['lulo',4],['uva',5]];
 
 //añadir numero 6 al array de numeros
 ArrayNumeros.push(6);
+console.log(ArrayNumeros);
+// elimina el ultimo elemento del array de numeros
+ArrayNumeros.pop();
 console.log(ArrayNumeros);
 
 
